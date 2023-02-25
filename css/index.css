@@ -1,0 +1,30 @@
+.nav-link{
+    color: white;
+}
+.nav-link.activ{
+    color: yellow;
+}
+.nav-link:hover{
+    color:aqua;
+}
+/* .nav-link.active{
+    color: black;
+} */
+
+
+.carousel-item{
+    height: 35rem;
+}
+
+@media (max-width:520px){
+    .carousel-item{
+        height:auto;
+    }
+    
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+.carousel-caption{
+    margin-bottom: 160px;
+}
